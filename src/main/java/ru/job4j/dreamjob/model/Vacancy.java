@@ -15,6 +15,9 @@ public class Vacancy {
             .withSecond(0)
             .withNano(0);
 
+    public Vacancy() {
+    }
+
     public Vacancy(int id, String title, String description) {
         this.id = id;
         this.title = title;
